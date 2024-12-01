@@ -1,0 +1,186 @@
+﻿2024-12-01T19:18:42.3941580Z Current runner version: '2.321.0'
+2024-12-01T19:18:42.3966022Z Runner name: 'DESKTOP-Q1NA1C7'
+2024-12-01T19:18:42.3968596Z Runner group name: 'Default'
+2024-12-01T19:18:42.3971113Z Machine name: 'DESKTOP-Q1NA1C7'
+2024-12-01T19:18:42.3983524Z ##[group]GITHUB_TOKEN Permissions
+2024-12-01T19:18:42.3990066Z Contents: read
+2024-12-01T19:18:42.3991657Z Metadata: read
+2024-12-01T19:18:42.3993737Z Packages: read
+2024-12-01T19:18:42.3995720Z ##[endgroup]
+2024-12-01T19:18:42.4006707Z Secret source: Actions
+2024-12-01T19:18:42.4009023Z Prepare workflow directory
+2024-12-01T19:18:42.5401468Z Prepare all required actions
+2024-12-01T19:18:42.5478989Z Getting action download info
+2024-12-01T19:18:43.1783947Z Download action repository 'actions/checkout@v4' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+2024-12-01T19:18:46.0613181Z Download action repository 'actions/setup-java@v1' (SHA:b6e674f4b717d7b0ae3baee0fbe79f498905dfde)
+2024-12-01T19:18:48.6742521Z Complete job name: Build, Analyze, and Deploy
+2024-12-01T19:18:48.7088060Z ##[warning]You are running out of disk space. The runner will stop working when the machine runs out of disk space. Free space left: 0 MB
+2024-12-01T19:18:48.9918052Z ##[group]Run actions/checkout@v4
+2024-12-01T19:18:48.9922834Z with:
+2024-12-01T19:18:48.9924501Z   fetch-depth: 0
+2024-12-01T19:18:48.9926610Z   repository: abdeLKabir-56/user-management
+2024-12-01T19:18:48.9930206Z   token: ***
+2024-12-01T19:18:48.9931855Z   ssh-strict: true
+2024-12-01T19:18:48.9933497Z   ssh-user: git
+2024-12-01T19:18:48.9935358Z   persist-credentials: true
+2024-12-01T19:18:48.9937385Z   clean: true
+2024-12-01T19:18:48.9939107Z   sparse-checkout-cone-mode: true
+2024-12-01T19:18:48.9941188Z   fetch-tags: false
+2024-12-01T19:18:48.9942904Z   show-progress: true
+2024-12-01T19:18:48.9944641Z   lfs: false
+2024-12-01T19:18:48.9946508Z   submodules: false
+2024-12-01T19:18:48.9948190Z   set-safe-directory: true
+2024-12-01T19:18:48.9951787Z ##[endgroup]
+2024-12-01T19:18:49.6637729Z Syncing repository: abdeLKabir-56/user-management
+2024-12-01T19:18:49.6643197Z ##[group]Getting Git version info
+2024-12-01T19:18:49.6645624Z Working directory is 'C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management'
+2024-12-01T19:18:49.8409484Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-12-01T19:18:49.9112014Z git version 2.46.2.windows.1
+2024-12-01T19:18:49.9276582Z ##[endgroup]
+2024-12-01T19:18:49.9312350Z Copying 'C:\Users\info\.gitconfig' to 'C:\Users\info\Desktop\user-management\actions-runner\_work\_temp\e8b81159-38fe-4d4c-950a-a3f908127043\.gitconfig'
+2024-12-01T19:18:49.9380125Z Temporarily overriding HOME='C:\Users\info\Desktop\user-management\actions-runner\_work\_temp\e8b81159-38fe-4d4c-950a-a3f908127043' before making global git config changes
+2024-12-01T19:18:49.9383166Z Adding repository directory to the temporary git global config as a safe directory
+2024-12-01T19:18:49.9416303Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management
+2024-12-01T19:18:50.0094124Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-12-01T19:18:50.0529932Z https://github.com/abdeLKabir-56/user-management
+2024-12-01T19:18:50.0626416Z ##[group]Removing previously created refs, to avoid conflicts
+2024-12-01T19:18:50.0650629Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-12-01T19:18:50.5365181Z ##[endgroup]
+2024-12-01T19:18:50.5366631Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-12-01T19:18:52.0398408Z ##[group]Cleaning the repository
+2024-12-01T19:18:52.0448301Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-12-01T19:18:52.5522610Z Removing .github/
+2024-12-01T19:18:52.5523688Z Removing .gitignore
+2024-12-01T19:18:52.5590602Z Removing .mvn/
+2024-12-01T19:18:52.5592408Z Removing Dockerfile
+2024-12-01T19:18:52.5593408Z Removing README.md
+2024-12-01T19:18:52.5598932Z Removing actions-runner/
+2024-12-01T19:18:52.5599910Z Removing img/
+2024-12-01T19:18:52.5600792Z Removing local-environment/
+2024-12-01T19:18:52.5601740Z Removing mvnw
+2024-12-01T19:18:52.5602440Z Removing mvnw.cmd
+2024-12-01T19:18:52.5603542Z Removing pom.xml
+2024-12-01T19:18:52.5604447Z Removing sonar-project.properties
+2024-12-01T19:18:52.5605475Z Removing src/
+2024-12-01T19:18:52.5673076Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-12-01T19:18:52.6772802Z ##[error]fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+2024-12-01T19:18:52.6779099Z Use '--' to separate paths from revisions, like this:
+2024-12-01T19:18:52.6781905Z 'git <command> [<revision>...] -- [<file>...]'
+2024-12-01T19:18:52.6836802Z ##[endgroup]
+2024-12-01T19:18:52.6884051Z ##[warning]Unable to clean or reset the repository. The repository will be recreated instead.
+2024-12-01T19:18:52.6905109Z Deleting the contents of 'C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management'
+2024-12-01T19:18:52.7389780Z ##[group]Initializing the repository
+2024-12-01T19:18:52.7429986Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management
+2024-12-01T19:18:52.8420001Z Initialized empty Git repository in C:/Users/info/Desktop/user-management/actions-runner/_work/user-management/user-management/.git/
+2024-12-01T19:18:52.8538021Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/abdeLKabir-56/user-management
+2024-12-01T19:18:52.9227363Z ##[endgroup]
+2024-12-01T19:18:52.9228768Z ##[group]Disabling automatic garbage collection
+2024-12-01T19:18:52.9250618Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-12-01T19:18:52.9889146Z ##[endgroup]
+2024-12-01T19:18:52.9890404Z ##[group]Setting up auth
+2024-12-01T19:18:52.9921896Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-12-01T19:18:53.1997003Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-12-01T19:18:55.4467568Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-12-01T19:18:55.5142505Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2024-12-01T19:18:57.8533284Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2024-12-01T19:18:57.9760939Z ##[endgroup]
+2024-12-01T19:18:57.9762562Z ##[group]Fetching the repository
+2024-12-01T19:18:57.9782719Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2024-12-01T19:19:52.4306682Z From https://github.com/abdeLKabir-56/user-management
+2024-12-01T19:19:52.4314518Z  * [new branch]      dependabot/maven/org.springframework.boot-spring-boot-starter-parent-3.4.0 -> origin/dependabot/maven/org.springframework.boot-spring-boot-starter-parent-3.4.0
+2024-12-01T19:19:52.4321796Z  * [new branch]      main       -> origin/main
+2024-12-01T19:19:52.4937723Z [command]"C:\Program Files\Git\cmd\git.exe" branch --list --remote origin/main
+2024-12-01T19:19:52.5911658Z   origin/main
+2024-12-01T19:19:52.6081670Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse refs/remotes/origin/main
+2024-12-01T19:19:52.6989713Z 4d65a1878473f1d50949aebfac75507346280980
+2024-12-01T19:19:52.7121849Z ##[endgroup]
+2024-12-01T19:19:52.7124718Z ##[group]Determining the checkout info
+2024-12-01T19:19:52.7130509Z ##[endgroup]
+2024-12-01T19:19:52.7185080Z [command]"C:\Program Files\Git\cmd\git.exe" sparse-checkout disable
+2024-12-01T19:19:52.8256564Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --unset-all extensions.worktreeConfig
+2024-12-01T19:19:52.8999836Z ##[group]Checking out the ref
+2024-12-01T19:19:52.9036277Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2024-12-01T19:19:54.5914358Z Updating files:  54% (349/635)
+2024-12-01T19:19:54.8616186Z Updating files:  55% (350/635)
+2024-12-01T19:19:54.9254769Z Updating files:  56% (356/635)
+2024-12-01T19:19:55.0118548Z Updating files:  57% (362/635)
+2024-12-01T19:19:55.0183379Z Updating files:  58% (369/635)
+2024-12-01T19:19:55.0738995Z Updating files:  59% (375/635)
+2024-12-01T19:19:55.0740463Z Updating files:  59% (376/635)
+2024-12-01T19:19:55.1176091Z Updating files:  60% (381/635)
+2024-12-01T19:19:55.1325556Z Updating files:  61% (388/635)
+2024-12-01T19:19:55.1684237Z Updating files:  62% (394/635)
+2024-12-01T19:19:55.2694504Z Updating files:  63% (401/635)
+2024-12-01T19:19:55.3009172Z Updating files:  64% (407/635)
+2024-12-01T19:19:55.3424493Z Updating files:  65% (413/635)
+2024-12-01T19:19:55.3657585Z Updating files:  66% (420/635)
+2024-12-01T19:19:55.4131351Z Updating files:  67% (426/635)
+2024-12-01T19:19:55.4303277Z Updating files:  68% (432/635)
+2024-12-01T19:19:55.4478907Z Updating files:  69% (439/635)
+2024-12-01T19:19:55.5630630Z Updating files:  70% (445/635)
+2024-12-01T19:19:55.6579555Z Updating files:  71% (451/635)
+2024-12-01T19:19:55.7227242Z Updating files:  72% (458/635)
+2024-12-01T19:19:55.7557672Z Updating files:  73% (464/635)
+2024-12-01T19:19:56.0726924Z Updating files:  74% (470/635)
+2024-12-01T19:19:56.1160531Z Updating files:  74% (475/635)
+2024-12-01T19:19:56.2714160Z Updating files:  75% (477/635)
+2024-12-01T19:19:56.2716773Z ##[error]error: unable to write file actions-runner/bin/System.Private.Xml.dll
+2024-12-01T19:19:56.3028233Z Updating files:  76% (483/635)
+2024-12-01T19:19:56.3132327Z Updating files:  77% (489/635)
+2024-12-01T19:19:56.3303055Z Updating files:  78% (496/635)
+2024-12-01T19:19:56.3305841Z ##[error]error: unable to write file actions-runner/bin/System.Runtime.Numerics.dll
+2024-12-01T19:19:56.3363458Z ##[error]error: unable to write file actions-runner/bin/System.Runtime.Serialization.Formatters.dll
+2024-12-01T19:19:56.3570477Z Updating files:  79% (502/635)
+2024-12-01T19:19:56.3575357Z ##[error]error: unable to write file actions-runner/bin/System.Security.AccessControl.dll
+2024-12-01T19:19:56.3579159Z Updating files:  80% (508/635)
+2024-12-01T19:19:56.3590451Z ##[error]error: unable to write file actions-runner/bin/System.Security.Claims.dll
+2024-12-01T19:19:56.3645597Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.Encoding.dll
+2024-12-01T19:19:56.3651486Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.OpenSsl.dll
+2024-12-01T19:19:56.3736359Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.Pkcs.dll
+2024-12-01T19:19:56.3743501Z Updating files:  81% (515/635)
+2024-12-01T19:19:56.3746656Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.Primitives.dll
+2024-12-01T19:19:56.3764516Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.ProtectedData.dll
+2024-12-01T19:19:56.3791095Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.X509Certificates.dll
+2024-12-01T19:19:56.4344026Z ##[error]error: unable to write file actions-runner/bin/System.Security.Cryptography.dll
+2024-12-01T19:19:56.4394132Z ##[error]error: unable to write file actions-runner/bin/System.Security.Principal.Windows.dll
+2024-12-01T19:19:56.4759825Z ##[error]error: unable to write file actions-runner/bin/System.Security.Principal.dll
+2024-12-01T19:19:56.4808850Z Updating files:  82% (521/635)
+2024-12-01T19:19:56.4811689Z ##[error]error: unable to write file actions-runner/bin/System.Security.SecureString.dll
+2024-12-01T19:19:56.4817733Z ##[error]error: unable to write file actions-runner/bin/System.Security.dll
+2024-12-01T19:19:56.4827702Z ##[error]error: unable to write file actions-runner/bin/System.ServiceModel.Web.dll
+2024-12-01T19:19:56.4844074Z ##[error]error: unable to write file actions-runner/bin/System.ServiceProcess.ServiceController.dll
+2024-12-01T19:19:56.4872966Z ##[error]error: unable to write file actions-runner/bin/System.ServiceProcess.dll
+2024-12-01T19:19:56.5157043Z ##[error]error: unable to write file actions-runner/bin/System.Text.Encoding.CodePages.dll
+2024-12-01T19:19:56.5176335Z ##[error]error: unable to write file actions-runner/bin/System.Text.Encoding.Extensions.dll
+2024-12-01T19:19:56.5193820Z Updating files:  83% (528/635)
+2024-12-01T19:19:56.5196317Z ##[error]error: unable to write file actions-runner/bin/System.Text.Encoding.dll
+2024-12-01T19:19:56.5263887Z ##[error]error: unable to write file actions-runner/bin/System.Text.Encodings.Web.dll
+2024-12-01T19:19:56.5636441Z ##[error]error: unable to write file actions-runner/bin/System.Text.Json.dll
+2024-12-01T19:19:56.5847675Z ##[error]error: unable to write file actions-runner/bin/System.Text.RegularExpressions.dll
+2024-12-01T19:19:56.5886906Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Channels.dll
+2024-12-01T19:19:56.5897099Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Overlapped.dll
+2024-12-01T19:19:56.5988375Z Updating files:  84% (534/635)
+2024-12-01T19:19:56.5991851Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Tasks.Dataflow.dll
+2024-12-01T19:19:56.5996624Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Tasks.Extensions.dll
+2024-12-01T19:19:56.6034760Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Tasks.Parallel.dll
+2024-12-01T19:19:56.6040560Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Tasks.dll
+2024-12-01T19:19:56.6050038Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Thread.dll
+2024-12-01T19:19:56.6061665Z ##[error]error: unable to write file actions-runner/bin/System.Threading.ThreadPool.dll
+2024-12-01T19:19:56.6070582Z Updating files:  85% (540/635)
+2024-12-01T19:19:56.6076988Z ##[error]error: unable to write file actions-runner/bin/System.Threading.Timer.dll
+2024-12-01T19:19:56.6108711Z ##[error]error: unable to write file actions-runner/bin/System.Threading.dll
+2024-12-01T19:19:56.6240065Z ##[error]error: unable to write file actions-runner/bin/System.Transactions.Local.dll
+2024-12-01T19:19:56.6247793Z ##[error]error: unable to write file actions-runner/bin/System.Transactions.dll
+2024-12-01T19:19:56.6265077Z ##[error]error: unable to write file actions-runner/bin/System.ValueTuple.dll
+2024-12-01T19:19:56.6285486Z ##[error]error: unable to write file actions-runner/bin/System.Web.HttpUtility.dll
+2024-12-01T19:19:56.6294153Z ##[error]error: unable to write file actions-runner/bin/System.Web.dll
+2024-12-01T19:19:56.6362214Z Updating files:  86% (547/635)
+2024-12-01T19:19:56.6368572Z ##[error]error: unable to write file actions-runner/bin/System.Windows.dll
+2024-12-01T19:19:56.6381540Z ##[error]error: unable to write file actions-runner/bin/System.Xml.Linq.dll
+2024-12-01T19:19:56.6398147Z ##[error]error: unable to write file actions-runner/bin/System.Xml.ReaderWriter.dll
+2024-12-01T19:19:56.6416347Z ##[error]error: unable to write file actions-runner/bin/System.Xml.Serialization.dll
+2024-12-01T19:19:56.6458577Z ##[error]error: unable to write file actions-runner/bin/System.Xml.XDocument.dll
+2024-12-01T19:19:56.6474363Z ##[error]error: unable to write file actions-runner/bin/System.Xml.XPath.XDocument.dll
+2024-12-01T19:19:56.6482122Z Updating files:  87% (553/635)
+2024-12-01T19:19:56.6485378Z ##[error]error: unable to write file actions-runner/bin/System.Xml.XPath.dll
+2024-12-01T19:19:56.6499324Z ##[error]error: una
