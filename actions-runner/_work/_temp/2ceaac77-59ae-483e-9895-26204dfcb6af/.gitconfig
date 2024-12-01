@@ -1,0 +1,14 @@
+[user]
+	email = abdelkabirelhamoussi@gmail.com
+	name = abdeLKabir-56
+	password = OcevtiWokzunWe8
+[http]
+	postBuffer = 524288000
+	maxRequestBuffer = 100M
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[safe]
+	directory = C:\\Users\\info\\Desktop\\user-management\\actions-runner\\_work\\user-management\\user-management

@@ -1,0 +1,153 @@
+﻿2024-12-01T19:04:54.8550321Z ##[group]Run actions/checkout@v4
+2024-12-01T19:04:54.8554053Z with:
+2024-12-01T19:04:54.8554994Z   fetch-depth: 0
+2024-12-01T19:04:54.8556147Z   repository: abdeLKabir-56/user-management
+2024-12-01T19:04:54.8558754Z   token: ***
+2024-12-01T19:04:54.8560323Z   ssh-strict: true
+2024-12-01T19:04:54.8561201Z   ssh-user: git
+2024-12-01T19:04:54.8562045Z   persist-credentials: true
+2024-12-01T19:04:54.8563215Z   clean: true
+2024-12-01T19:04:54.8564218Z   sparse-checkout-cone-mode: true
+2024-12-01T19:04:54.8565247Z   fetch-tags: false
+2024-12-01T19:04:54.8566093Z   show-progress: true
+2024-12-01T19:04:54.8566948Z   lfs: false
+2024-12-01T19:04:54.8567732Z   submodules: false
+2024-12-01T19:04:54.8568614Z   set-safe-directory: true
+2024-12-01T19:04:54.8570766Z ##[endgroup]
+2024-12-01T19:04:55.7787122Z Syncing repository: abdeLKabir-56/user-management
+2024-12-01T19:04:55.7792043Z ##[group]Getting Git version info
+2024-12-01T19:04:55.7794488Z Working directory is 'C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management'
+2024-12-01T19:04:56.2235092Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-12-01T19:04:56.4444568Z git version 2.46.2.windows.1
+2024-12-01T19:04:56.4694235Z ##[endgroup]
+2024-12-01T19:04:56.4710949Z Copying 'C:\Users\info\.gitconfig' to 'C:\Users\info\Desktop\user-management\actions-runner\_work\_temp\2ceaac77-59ae-483e-9895-26204dfcb6af\.gitconfig'
+2024-12-01T19:04:56.4767141Z Temporarily overriding HOME='C:\Users\info\Desktop\user-management\actions-runner\_work\_temp\2ceaac77-59ae-483e-9895-26204dfcb6af' before making global git config changes
+2024-12-01T19:04:56.4778738Z Adding repository directory to the temporary git global config as a safe directory
+2024-12-01T19:04:56.4850820Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management
+2024-12-01T19:04:56.6351936Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-12-01T19:04:56.7208730Z https://github.com/abdeLKabir-56/user-management
+2024-12-01T19:04:56.7472111Z ##[group]Removing previously created refs, to avoid conflicts
+2024-12-01T19:04:56.7537519Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-12-01T19:04:56.8196959Z refs/heads/main
+2024-12-01T19:04:56.8323803Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-12-01T19:04:58.7734919Z HEAD is now at 1e812bc update sonarQube workfolow
+2024-12-01T19:04:58.9032363Z ##[endgroup]
+2024-12-01T19:04:58.9054242Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-12-01T19:04:59.8875472Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/user-management/user-management'
+2024-12-01T19:04:59.9015349Z Bad Submodules found, removing existing files
+2024-12-01T19:04:59.9017095Z ##[group]Cleaning the repository
+2024-12-01T19:04:59.9049739Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-12-01T19:04:59.9853212Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-12-01T19:05:00.1549099Z HEAD is now at 1e812bc update sonarQube workfolow
+2024-12-01T19:05:00.1643028Z ##[endgroup]
+2024-12-01T19:05:00.1670717Z ##[warning]Unable to clean or reset the repository. The repository will be recreated instead.
+2024-12-01T19:05:00.1674287Z Deleting the contents of 'C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management'
+2024-12-01T19:05:00.3875773Z ##[group]Initializing the repository
+2024-12-01T19:05:00.3911206Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management
+2024-12-01T19:05:00.5056046Z Initialized empty Git repository in C:/Users/info/Desktop/user-management/actions-runner/_work/user-management/user-management/.git/
+2024-12-01T19:05:00.5155764Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/abdeLKabir-56/user-management
+2024-12-01T19:05:00.5835352Z ##[endgroup]
+2024-12-01T19:05:00.5838290Z ##[group]Disabling automatic garbage collection
+2024-12-01T19:05:00.5866677Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-12-01T19:05:00.6546650Z ##[endgroup]
+2024-12-01T19:05:00.6548746Z ##[group]Setting up auth
+2024-12-01T19:05:00.6589214Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-12-01T19:05:00.7269021Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-12-01T19:05:02.2599842Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-12-01T19:05:02.3699442Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2024-12-01T19:05:03.6534998Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2024-12-01T19:05:03.7178460Z ##[endgroup]
+2024-12-01T19:05:03.7180215Z ##[group]Fetching the repository
+2024-12-01T19:05:03.7236929Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2024-12-01T19:06:02.6653887Z From https://github.com/abdeLKabir-56/user-management
+2024-12-01T19:06:02.6656921Z  * [new branch]      dependabot/maven/org.springframework.boot-spring-boot-starter-parent-3.4.0 -> origin/dependabot/maven/org.springframework.boot-spring-boot-starter-parent-3.4.0
+2024-12-01T19:06:02.6661209Z  * [new branch]      main       -> origin/main
+2024-12-01T19:06:02.7140047Z [command]"C:\Program Files\Git\cmd\git.exe" branch --list --remote origin/main
+2024-12-01T19:06:02.7665039Z   origin/main
+2024-12-01T19:06:02.7763722Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse refs/remotes/origin/main
+2024-12-01T19:06:02.8285178Z a1f85e6617cfb966cd167a11803a412fe32854c4
+2024-12-01T19:06:02.8370060Z ##[endgroup]
+2024-12-01T19:06:02.8371097Z ##[group]Determining the checkout info
+2024-12-01T19:06:02.8374782Z ##[endgroup]
+2024-12-01T19:06:02.8413745Z [command]"C:\Program Files\Git\cmd\git.exe" sparse-checkout disable
+2024-12-01T19:06:02.9153106Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --unset-all extensions.worktreeConfig
+2024-12-01T19:06:02.9848919Z ##[group]Checking out the ref
+2024-12-01T19:06:02.9882290Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2024-12-01T19:06:04.4999287Z ##[error]error: unable to write file actions-runner/actions-runner-win-x64-2.321.0.zip
+2024-12-01T19:06:04.5428014Z Updating files:  53% (330/616)
+2024-12-01T19:06:04.5431084Z ##[error]error: unable to write file actions-runner/bin/Azure.Storage.Common.dll
+2024-12-01T19:06:04.5650824Z Updating files:  54% (333/616)
+2024-12-01T19:06:04.5652561Z ##[error]error: unable to write file actions-runner/bin/Microsoft.CSharp.dll
+2024-12-01T19:06:04.6454664Z ##[error]error: unable to write file actions-runner/bin/Microsoft.DiaSymReader.Native.amd64.dll
+2024-12-01T19:06:04.6564617Z ##[error]error: unable to write file actions-runner/bin/Microsoft.IdentityModel.JsonWebTokens.dll
+2024-12-01T19:06:04.6746892Z ##[error]error: unable to write file actions-runner/bin/Microsoft.IdentityModel.Tokens.dll
+2024-12-01T19:06:04.7148717Z Updating files:  55% (339/616)
+2024-12-01T19:06:04.7153780Z ##[error]error: unable to write file actions-runner/bin/Microsoft.VisualBasic.Core.dll
+2024-12-01T19:06:04.7268212Z ##[error]error: unable to write file actions-runner/bin/Microsoft.Win32.Registry.dll
+2024-12-01T19:06:04.7354541Z ##[error]error: unable to write file actions-runner/bin/Newtonsoft.Json.Bson.dll
+2024-12-01T19:06:04.7603751Z Updating files:  56% (345/616)
+2024-12-01T19:06:04.7606850Z ##[error]error: unable to write file actions-runner/bin/Newtonsoft.Json.dll
+2024-12-01T19:06:04.7646392Z ##[error]error: unable to write file actions-runner/bin/Runner.Common.deps.json
+2024-12-01T19:06:04.7725635Z ##[error]error: unable to write file actions-runner/bin/Runner.Common.dll
+2024-12-01T19:06:04.7748253Z ##[error]error: unable to write file actions-runner/bin/Runner.Listener.deps.json
+2024-12-01T19:06:04.7860098Z ##[error]error: unable to write file actions-runner/bin/Runner.Listener.dll
+2024-12-01T19:06:04.7932023Z ##[error]error: unable to write file actions-runner/bin/Runner.Listener.exe
+2024-12-01T19:06:04.7979414Z Updating files:  57% (352/616)
+2024-12-01T19:06:04.7984557Z ##[error]error: unable to write file actions-runner/bin/Runner.PluginHost.deps.json
+2024-12-01T19:06:04.8000272Z ##[error]error: unable to create file actions-runner/bin/Runner.PluginHost.dll: No space left on device
+2024-12-01T19:06:04.8053798Z ##[error]error: unable to create file actions-runner/bin/Runner.PluginHost.exe: No space left on device
+2024-12-01T19:06:04.8064554Z ##[error]error: unable to create file actions-runner/bin/Runner.PluginHost.runtimeconfig.json: No space left on device
+2024-12-01T19:06:04.8076351Z ##[error]error: unable to create file actions-runner/bin/Runner.Plugins.deps.json: No space left on device
+2024-12-01T19:06:04.8117252Z ##[error]error: unable to create file actions-runner/bin/Runner.Plugins.dll: No space left on device
+2024-12-01T19:06:04.8144450Z Updating files:  58% (358/616)
+2024-12-01T19:06:04.8159197Z ##[error]error: unable to create file actions-runner/bin/Runner.Sdk.deps.json: No space left on device
+2024-12-01T19:06:04.8184849Z ##[error]error: unable to create file actions-runner/bin/Runner.Sdk.dll: No space left on device
+2024-12-01T19:06:04.8205622Z ##[error]error: unable to create file actions-runner/bin/Runner.Worker.deps.json: No space left on device
+2024-12-01T19:06:04.8342917Z ##[error]error: unable to create file actions-runner/bin/Runner.Worker.dll: No space left on device
+2024-12-01T19:06:04.8417606Z ##[error]error: unable to create file actions-runner/bin/Runner.Worker.exe: No space left on device
+2024-12-01T19:06:04.8431055Z ##[error]error: unable to create file actions-runner/bin/Runner.Worker.runtimeconfig.json: No space left on device
+2024-12-01T19:06:04.8500382Z Updating files:  59% (364/616)
+2024-12-01T19:06:04.8511479Z ##[error]error: unable to create file actions-runner/bin/RunnerService.exe: No space left on device
+2024-12-01T19:06:04.8526839Z ##[error]error: unable to create file actions-runner/bin/RunnerService.exe.config: No space left on device
+2024-12-01T19:06:04.8544104Z ##[error]error: unable to create file actions-runner/bin/Sdk.deps.json: No space left on device
+2024-12-01T19:06:04.9019273Z ##[error]error: unable to write file actions-runner/bin/Sdk.dll
+2024-12-01T19:06:04.9055861Z ##[error]error: unable to create file actions-runner/bin/System.AppContext.dll: No space left on device
+2024-12-01T19:06:04.9100349Z ##[error]error: unable to create file actions-runner/bin/System.Buffers.dll: No space left on device
+2024-12-01T19:06:04.9168631Z Updating files:  60% (370/616)
+2024-12-01T19:06:04.9171853Z ##[error]error: unable to create file actions-runner/bin/System.ClientModel.dll: No space left on device
+2024-12-01T19:06:04.9257503Z ##[error]error: unable to create file actions-runner/bin/System.Collections.Concurrent.dll: No space left on device
+2024-12-01T19:06:04.9427884Z ##[error]error: unable to create file actions-runner/bin/System.Collections.Immutable.dll: No space left on device
+2024-12-01T19:06:04.9438646Z ##[error]error: unable to create file actions-runner/bin/System.Collections.NonGeneric.dll: No space left on device
+2024-12-01T19:06:04.9476686Z ##[error]error: unable to create file actions-runner/bin/System.Collections.Specialized.dll: No space left on device
+2024-12-01T19:06:04.9537690Z ##[error]error: unable to create file actions-runner/bin/System.Collections.dll: No space left on device
+2024-12-01T19:06:04.9587600Z Updating files:  61% (376/616)
+2024-12-01T19:06:04.9590599Z ##[error]error: unable to create file actions-runner/bin/System.ComponentModel.Annotations.dll: No space left on device
+2024-12-01T19:06:04.9599725Z ##[error]error: unable to create file actions-runner/bin/System.ComponentModel.DataAnnotations.dll: No space left on device
+2024-12-01T19:06:04.9618018Z ##[error]error: unable to create file actions-runner/bin/System.ComponentModel.EventBasedAsync.dll: No space left on device
+2024-12-01T19:06:04.9634644Z ##[error]error: unable to create file actions-runner/bin/System.ComponentModel.Primitives.dll: No space left on device
+2024-12-01T19:06:04.9796569Z ##[error]error: unable to create file actions-runner/bin/System.ComponentModel.TypeConverter.dll: No space left on device
+2024-12-01T19:06:04.9806771Z ##[error]error: unable to create file actions-runner/bin/System.ComponentModel.dll: No space left on device
+2024-12-01T19:06:04.9827353Z Updating files:  62% (382/616)
+2024-12-01T19:06:04.9829904Z ##[error]error: unable to create file actions-runner/bin/System.Configuration.dll: No space left on device
+2024-12-01T19:06:04.9867565Z ##[error]error: unable to create file actions-runner/bin/System.Console.dll: No space left on device
+2024-12-01T19:06:04.9875778Z ##[error]error: unable to create file actions-runner/bin/System.Core.dll: No space left on device
+2024-12-01T19:06:05.0472274Z ##[error]error: unable to create file actions-runner/bin/System.Data.Common.dll: No space left on device
+2024-12-01T19:06:05.0485953Z ##[error]error: unable to create file actions-runner/bin/System.Data.DataSetExtensions.dll: No space left on device
+2024-12-01T19:06:05.0493556Z ##[error]error: unable to create file actions-runner/bin/System.Data.dll: No space left on device
+2024-12-01T19:06:05.0539613Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.Contracts.dll: No space left on device
+2024-12-01T19:06:05.0542956Z Updating files:  63% (389/616)
+2024-12-01T19:06:05.0545938Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.Debug.dll: No space left on device
+2024-12-01T19:06:05.0634502Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.DiagnosticSource.dll: No space left on device
+2024-12-01T19:06:05.0716701Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.EventLog.Messages.dll: No space left on device
+2024-12-01T19:06:05.0745040Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.EventLog.dll: No space left on device
+2024-12-01T19:06:05.0753582Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.FileVersionInfo.dll: No space left on device
+2024-12-01T19:06:05.0829826Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.Process.dll: No space left on device
+2024-12-01T19:06:05.0944028Z Updating files:  64% (395/616)
+2024-12-01T19:06:05.0946238Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.StackTrace.dll: No space left on device
+2024-12-01T19:06:05.0962895Z Updating files:  64% (396/616)
+2024-12-01T19:06:05.0965057Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.TextWriterTraceListener.dll: No space left on device
+2024-12-01T19:06:05.0994380Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.Tools.dll: No space left on device
+2024-12-01T19:06:05.1024306Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.TraceSource.dll: No space left on device
+2024-12-01T19:06:05.1032346Z ##[error]error: unable to create file actions-runner/bin/System.Diagnostics.Tracing.dll: No space left on device
+2024-12-01T19:06:05.1062938Z ##[error]error: unable to create file actions-runner/bin/System.Drawing.Primitives.dll: No space left on device
+2024-12-01T19:06:05.1066590Z Updating files:  65%
