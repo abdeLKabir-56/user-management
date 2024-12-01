@@ -1,0 +1,242 @@
+[2024-12-01 18:21:28Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-12-01 18:21:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:28Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:28Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\info\Desktop\user-management\actions-runner\.credentials'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO HostContext] Well known config file 'Runner': 'C:\Users\info\Desktop\user-management\actions-runner\.runner'
+[2024-12-01 18:21:29Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-12-01 18:21:29Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2024-12-01 18:21:29Z INFO Listener] Version: 2.321.0
+[2024-12-01 18:21:29Z INFO Listener] Commit: e249007931b7c8e857797fa259c167f0bd4f997a
+[2024-12-01 18:21:29Z INFO Listener] Culture: fr-FR
+[2024-12-01 18:21:29Z INFO Listener] UI Culture: fr-FR
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO Listener] Validating directory permissions for: 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO CommandLineParser] Parse
+[2024-12-01 18:21:29Z INFO CommandLineParser] Parsing 1 args
+[2024-12-01 18:21:29Z INFO CommandLineParser] parsing argument
+[2024-12-01 18:21:29Z INFO CommandLineParser] HasArgs: False
+[2024-12-01 18:21:29Z INFO CommandLineParser] Adding Command: run
+[2024-12-01 18:21:29Z INFO Listener] Arguments parsed
+[2024-12-01 18:21:29Z INFO Runner] ExecuteCommand
+[2024-12-01 18:21:29Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\info\Desktop\user-management\actions-runner\bin\Runner.Listener.dll
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] binPath: C:\Users\info\Desktop\user-management\actions-runner\bin
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] RootFolder: C:\Users\info\Desktop\user-management\actions-runner
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO HostContext] Well known config file 'Runner': 'C:\Users\info\Desktop\user-management\actions-runner\.runner'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] ConfigFilePath: C:\Users\info\Desktop\user-management\actions-runner\.runner
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\info\Desktop\user-management\actions-runner\.credentials'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] CredFilePath: C:\Users\info\Desktop\user-management\actions-runner\.credentials
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\info\Desktop\user-management\actions-runner\.credentials_migrated'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\info\Desktop\user-management\actions-runner\.credentials_migrated
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO HostContext] Well known config file 'Service': 'C:\Users\info\Desktop\user-management\actions-runner\.service'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\info\Desktop\user-management\actions-runner\.service
+[2024-12-01 18:21:29Z INFO CommandSettings] Flag 'help': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Flag 'version': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Flag 'check': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Command 'configure': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Command 'remove': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-12-01 18:21:29Z INFO ConfigurationManager] LoadSettings
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsConfigured()
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-01 18:21:29Z INFO ConfigurationManager] Is configured: True
+[2024-12-01 18:21:29Z INFO ConfigurationStore] Read setting file: 320 chars
+[2024-12-01 18:21:29Z INFO ConfigurationManager] Settings Loaded
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-12-01 18:21:29Z INFO CommandSettings] Command 'run': 'True'
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsConfigured()
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-01 18:21:29Z INFO ConfigurationManager] Is configured: True
+[2024-12-01 18:21:29Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2024-12-01 18:21:29Z INFO Runner] Set runner startup type - Manual
+[2024-12-01 18:21:29Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-01 18:21:29Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-01 18:21:29Z INFO Runner] RunAsync
+[2024-12-01 18:21:29Z INFO ConfigurationManager] LoadSettings
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsConfigured()
+[2024-12-01 18:21:29Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-01 18:21:29Z INFO ConfigurationManager] Is configured: True
+[2024-12-01 18:21:29Z INFO ConfigurationManager] Settings Loaded
+[2024-12-01 18:21:29Z INFO MessageListener] {
+  "AgentId": 25,
+  "AgentName": "DESKTOP-Q1NA1C7",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus23.actions.githubusercontent.com/ZA6BDxvtsd2a7cGAvMm76SoJ4iPhN5djrzo1YA8ByuHTFbRNXX/",
+  "GitHubUrl": "https://github.com/abdeLKabir-56/user-management",
+  "WorkFolder": "_work"
+}
+[2024-12-01 18:21:29Z INFO MessageListener] Loading Credentials
+[2024-12-01 18:21:29Z INFO ConfigurationStore] HasCredentials()
+[2024-12-01 18:21:29Z INFO ConfigurationStore] stored True
+[2024-12-01 18:21:29Z INFO CredentialManager] GetCredentialProvider
+[2024-12-01 18:21:29Z INFO CredentialManager] Creating type OAuth
+[2024-12-01 18:21:29Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\info\Desktop\user-management\actions-runner'
+[2024-12-01 18:21:29Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams'
+[2024-12-01 18:21:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:29Z INFO MessageListener] Attempt to create session.
+[2024-12-01 18:21:29Z INFO MessageListener] Connecting to the Runner Server...
+[2024-12-01 18:21:29Z INFO RunnerServer] EstablishVssConnection
+[2024-12-01 18:21:29Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-12-01 18:21:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-01 18:21:29Z INFO RunnerServer] EstablishVssConnection
+[2024-12-01 18:21:29Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-01 18:21:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-01 18:21:29Z INFO RunnerServer] EstablishVssConnection
+[2024-12-01 18:21:29Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-01 18:21:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-01 18:21:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-01 18:21:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-01 18:21:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-01 18:21:30Z INFO MessageListener] VssConnection created
+[2024-12-01 18:21:30Z INFO Terminal] WRITE LINE: 
+[2024-12-01 18:21:30Z INFO Terminal] WRITE LINE: 
+[2024-12-01 18:21:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:31Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-01 18:21:31Z INFO MessageListener] Session created.
+[2024-12-01 18:21:31Z INFO Terminal] WRITE LINE: Current runner version: '2.321.0'
+[2024-12-01 18:21:31Z INFO Terminal] WRITE LINE: 2024-12-01 18:21:31Z: Listening for Jobs
+[2024-12-01 18:21:31Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-12-01 18:21:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-01 18:21:34Z INFO MessageListener] Message '2916555654440069638' received from session '2999e238-b89a-4b22-8bda-84b7e76b8e3e'.
+[2024-12-01 18:21:34Z INFO ConfigurationStore] HasCredentials()
+[2024-12-01 18:21:34Z INFO ConfigurationStore] stored True
+[2024-12-01 18:21:34Z INFO CredentialManager] GetCredentialProvider
+[2024-12-01 18:21:34Z INFO CredentialManager] Creating type OAuth
+[2024-12-01 18:21:34Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-01 18:21:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:34Z INFO ActionsRunServer] EstablishVssConnection
+[2024-12-01 18:21:34Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2024-12-01 18:21:34Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-01 18:21:34Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-01 18:21:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\info\Desktop\user-management\actions-runner\.credentials_rsaparams
+[2024-12-01 18:21:35Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-01 18:21:36Z INFO JobDispatcher] Job request 12 for plan 45b54422-e963-4c79-9d56-96284b4bfe68 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-12-01 18:21:36Z INFO JobDispatcher] Pull OrchestrationId 45b54422-e963-4c79-9d56-96284b4bfe68.build.__default from JWT claims
+[2024-12-01 18:21:36Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-12-01 18:21:36Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-12-01 18:21:36Z INFO Terminal] WRITE LINE: 2024-12-01 18:21:36Z: Running job: Build, Analyze, and Deploy
+[2024-12-01 18:21:36Z INFO JobDispatcher] Start renew job request 12 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-01 18:21:36Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 01/12/2024 18:31:35
+[2024-12-01 18:21:36Z INFO HostContext] Well known directory 'Bin': 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\info\Desktop\user-management\actions-runner\bin\Runner.Worker.exe'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2168 2176'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\info\Desktop\user-management\actions-runner\bin'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-12-01 18:21:36Z INFO ProcessInvokerWrapper] Process started with process id 18904, waiting for process exit.
+[2024-12-01 18:21:36Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-01 18:21:36Z INFO ProcessChannel] Sending message of length 29647, with hash '6b32d4e85f58b08ce73cbfdbdfc06c6e0f273bc10f37f99be43fa29d938c37cc'
+[2024-12-01 18:21:37Z INFO JobNotification] Entering JobStarted Notification
+[2024-12-01 18:21:37Z INFO JobNotification] Entering StartMonitor
+[2024-12-01 18:22:47Z WARN GitHubActionsService] Attempt 1 of PATCH request to https://pipelinesghubeus23.actions.githubusercontent.com/ZA6BDxvtsd2a7cGAvMm76SoJ4iPhN5djrzo1YA8ByuHTFbRNXX/_apis/distributedtask/pools/1/jobrequests/12?lockToken=00000000-0000-0000-0000-000000000000 failed (Socket Error: ConnectionReset). The operation will be retried in 10,83 seconds.
+[2024-12-01 18:23:08Z WARN GitHubActionsService] Attempt 2 of PATCH request to https://pipelinesghubeus23.actions.githubusercontent.com/ZA6BDxvtsd2a7cGAvMm76SoJ4iPhN5djrzo1YA8ByuHTFbRNXX/_apis/distributedtask/pools/1/jobrequests/12?lockToken=00000000-0000-0000-0000-000000000000 failed (Socket Error: ConnectionAborted). The operation will be retried in 13,423 seconds.
+[2024-12-01 18:23:08Z WARN GitHubActionsService] Attempt 1 of GET request to https://broker.actions.githubusercontent.com/message?sessionId=2999e238-b89a-4b22-8bda-84b7e76b8e3e&status=Busy&runnerVersion=2.321.0&os=Windows&architecture=X64&disableUpdate=false failed (Socket Error: ConnectionReset). The operation will be retried in 11,119 seconds.
+[2024-12-01 18:23:23Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 01/12/2024 18:33:22
+[2024-12-01 18:24:23Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 01/12/2024 18:34:23
+[2024-12-01 18:55:36Z ERR  GitHubActionsService] PATCH request to https://pipelinesghubeus23.actions.githubusercontent.com/ZA6BDxvtsd2a7cGAvMm76SoJ4iPhN5djrzo1YA8ByuHTFbRNXX/_apis/distributedtask/pools/1/jobrequests/12?lockToken=00000000-0000-0000-0000-000000000000 failed. System.Net.Http.HttpRequestException: Hôte inconnu. (pipelinesghubeus23.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): Hôte inconnu.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2024-12-01 18:55:36Z ERR  JobDispatcher] Catch exception during renew runner jobrequest 12.
+[2024-12-01 18:55:36Z ERR  JobDispatcher] System.Net.Http.HttpRequestException: Hôte inconnu. (pipelinesghubeus23.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11001): Hôte inconnu.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.DistributedTask.WebApi.TaskAgentHttpClient.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken, Func`3 processResponse)
+   at GitHub.DistributedTask.WebApi.TaskAgentHttpClient.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken, Func`3 processResponse)
+   at GitHub.Runner.Listener.JobDispatcher.RenewJobRequestAsync(IRunnerServer runnerServer, Int32 poolId, Int64 requestId, Guid lockToken, String orchestrationId, TaskCompletionSource`1 firstJobRequestRenewed, CancellationToken token)
+[2024-12-01 18:55:36Z ERR  JobDispatcher] #####################################################
+[2024-12-01 18:55:36Z ERR  JobDispatcher] System.Net.Sockets.SocketException (11001): Hôte inconnu.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2024-12-01 18:55:36Z INFO JobDispatcher] Lock renewal has run out of retry, stop renew lock for jobrequest 12.
+[2024-12-01 18:55:36Z INFO JobDispatcher] Send job cancellation message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-01 18:55:36Z INFO ProcessChannel] Sending message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2024-12-01 18:55:55Z WARN GitHubActionsService] Attempt 1 of GET request to https://broker.actions.githubusercontent.com/message?sessionId=2999e238-b89a-4b22-8bda-84b7e76b8e3e&status=Busy&runnerVersion=2.321.0&os=Windows&architecture=X64&disableUpdate=false failed (Socket Error: ConnectionReset). The operation will be retried in 10,966 seconds.
+[2024-12-01 18:55:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-01 18:55:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-01 18:55:58Z INFO ProcessInvokerWrapper] Finished process 18904 with exit code 102, and elapsed time 00:34:22.0268726.
+[2024-12-01 18:55:58Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Abandoned
+[2024-12-01 18:55:58Z INFO Terminal] WRITE LINE: 2024-12-01 18:55:58Z: Job Build, Analyze, and Deploy completed with result: Abandoned
+[2024-12-01 18:55:58Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-12-01 18:55:58Z INFO JobNotification] Entering JobCompleted Notification
+[2024-12-01 18:55:58Z INFO JobNotification] Entering EndMonitor
+[2024-12-01 18:55:58Z INFO MessageListener] Received job status event. JobState: Online
+[2024-12-01 18:56:04Z INFO Terminal] WRITE LINE: Exiting...
+[2024-12-01 18:56:04Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-12-01 18:56:04Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-12-01 18:56:04Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2024-12-01 18:56:04Z ERR  BrokerServer] Catch exception during request
+[2024-12-01 18:56:04Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2024-12-01 18:56:04Z ERR  BrokerServer] #####################################################
+[2024-12-01 18:56:04Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2024-12-01 18:56:04Z WARN BrokerServer] Back off 12,13 seconds before next retry. 4 attempt left.
+[2024-12-01 18:56:04Z INFO MessageListener] Get next message has been cancelled.
+[2024-12-01 18:56:04Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2024-12-01 18:56:04Z INFO JobDispatcher] Ensure WorkerDispatcher for job ca395085-040a-526b-2ce8-bdc85f692774 run to finish, cancel any running job.
+[2024-12-01 18:56:04Z INFO JobDispatcher] Job request ca395085-040a-526b-2ce8-bdc85f692774 processed succeed.
+[2024-12-01 18:56:04Z INFO Runner] Deleting Runner Session...
+[2024-12-01 18:56:05Z INFO Listener] Runner execution been cancelled.

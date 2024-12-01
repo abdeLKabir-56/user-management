@@ -1,0 +1,78 @@
+﻿2024-12-01T18:21:48.4276006Z ##[group]Run actions/checkout@v4
+2024-12-01T18:21:48.4279696Z with:
+2024-12-01T18:21:48.4280678Z   fetch-depth: 0
+2024-12-01T18:21:48.4281804Z   repository: abdeLKabir-56/user-management
+2024-12-01T18:21:48.4284124Z   token: ***
+2024-12-01T18:21:48.4285127Z   ssh-strict: true
+2024-12-01T18:21:48.4287614Z   ssh-user: git
+2024-12-01T18:21:48.4288860Z   persist-credentials: true
+2024-12-01T18:21:48.4289925Z   clean: true
+2024-12-01T18:21:48.4292169Z   sparse-checkout-cone-mode: true
+2024-12-01T18:21:48.4293847Z   fetch-tags: false
+2024-12-01T18:21:48.4294879Z   show-progress: true
+2024-12-01T18:21:48.4295742Z   lfs: false
+2024-12-01T18:21:48.4296552Z   submodules: false
+2024-12-01T18:21:48.4297669Z   set-safe-directory: true
+2024-12-01T18:21:48.4300241Z ##[endgroup]
+2024-12-01T18:21:49.1363070Z Syncing repository: abdeLKabir-56/user-management
+2024-12-01T18:21:49.1370455Z ##[group]Getting Git version info
+2024-12-01T18:21:49.1373266Z Working directory is 'C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management'
+2024-12-01T18:21:49.2795552Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-12-01T18:21:49.3323024Z git version 2.46.2.windows.1
+2024-12-01T18:21:49.3433064Z ##[endgroup]
+2024-12-01T18:21:49.3464081Z Copying 'C:\Users\info\.gitconfig' to 'C:\Users\info\Desktop\user-management\actions-runner\_work\_temp\2bef4559-ab7d-423c-a8e4-b50895e49aae\.gitconfig'
+2024-12-01T18:21:49.3510820Z Temporarily overriding HOME='C:\Users\info\Desktop\user-management\actions-runner\_work\_temp\2bef4559-ab7d-423c-a8e4-b50895e49aae' before making global git config changes
+2024-12-01T18:21:49.3513557Z Adding repository directory to the temporary git global config as a safe directory
+2024-12-01T18:21:49.3537150Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management
+2024-12-01T18:21:49.4129502Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-12-01T18:21:49.4567276Z https://github.com/abdeLKabir-56/user-management
+2024-12-01T18:21:49.4696295Z ##[group]Removing previously created refs, to avoid conflicts
+2024-12-01T18:21:49.4726063Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-12-01T18:21:49.5630571Z refs/heads/main
+2024-12-01T18:21:49.5793267Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-12-01T18:21:49.8646111Z HEAD is now at a72b99c update sonarQube workfolow
+2024-12-01T18:21:49.9984272Z ##[endgroup]
+2024-12-01T18:21:50.0007689Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-12-01T18:21:51.1139431Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/user-management/user-management'
+2024-12-01T18:21:51.1419466Z Bad Submodules found, removing existing files
+2024-12-01T18:21:51.1423986Z ##[group]Cleaning the repository
+2024-12-01T18:21:51.1425351Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-12-01T18:21:51.2452133Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2024-12-01T18:21:51.3679348Z HEAD is now at a72b99c update sonarQube workfolow
+2024-12-01T18:21:51.3748351Z ##[endgroup]
+2024-12-01T18:21:51.3778067Z ##[warning]Unable to clean or reset the repository. The repository will be recreated instead.
+2024-12-01T18:21:51.3783345Z Deleting the contents of 'C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management'
+2024-12-01T18:21:51.7374103Z ##[group]Initializing the repository
+2024-12-01T18:21:51.7516159Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\info\Desktop\user-management\actions-runner\_work\user-management\user-management
+2024-12-01T18:21:51.9320929Z Initialized empty Git repository in C:/Users/info/Desktop/user-management/actions-runner/_work/user-management/user-management/.git/
+2024-12-01T18:21:51.9613755Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/abdeLKabir-56/user-management
+2024-12-01T18:21:52.0458434Z ##[endgroup]
+2024-12-01T18:21:52.0460098Z ##[group]Disabling automatic garbage collection
+2024-12-01T18:21:52.0488925Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-12-01T18:21:52.1084928Z ##[endgroup]
+2024-12-01T18:21:52.1091776Z ##[group]Setting up auth
+2024-12-01T18:21:52.1111229Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-12-01T18:21:52.1761133Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-12-01T18:21:53.3633342Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-12-01T18:21:53.4176282Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2024-12-01T18:21:55.2914405Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2024-12-01T18:21:55.4332031Z ##[endgroup]
+2024-12-01T18:21:55.4334176Z ##[group]Fetching the repository
+2024-12-01T18:21:55.4369216Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2024-12-01T18:23:08.1322879Z ##[error]error: RPC failed; curl 56 Recv failure: Connection was reset
+2024-12-01T18:23:08.1526522Z ##[error]error: 2018 bytes of body are still expected
+2024-12-01T18:23:08.2587823Z fetch-pack: unexpected disconnect while reading sideband packet
+2024-12-01T18:23:08.3055231Z ##[error]fatal: early EOF
+2024-12-01T18:23:08.3308988Z ##[error]fatal: fetch-pack: invalid index-pack output
+2024-12-01T18:23:08.4203328Z The process 'C:\Program Files\Git\cmd\git.exe' failed with exit code 128
+2024-12-01T18:23:08.4490544Z Waiting 10 seconds before trying again
+2024-12-01T18:23:18.4302841Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2024-12-01T18:24:38.4298145Z ##[error]error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)
+2024-12-01T18:24:38.4308145Z ##[error]error: 4270 bytes of body are still expected
+2024-12-01T18:24:38.4761926Z fetch-pack: unexpected disconnect while reading sideband packet
+2024-12-01T18:24:38.4766718Z ##[error]fatal: early EOF
+2024-12-01T18:24:38.4798486Z ##[error]fatal: fetch-pack: invalid index-pack output
+2024-12-01T18:24:38.4948299Z The process 'C:\Program Files\Git\cmd\git.exe' failed with exit code 128
+2024-12-01T18:24:38.4949393Z Waiting 13 seconds before trying again
+2024-12-01T18:24:51.5246725Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+2024-12-01T18:55:36.7950923Z ##[error]The operation was canceled.
