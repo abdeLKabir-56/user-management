@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "abdeLKabir-56/user-management",
+  "pipelineDirectory": "user-management",
+  "workspaceDirectory": "user-management\\user-management",
+  "repositories": {
+    "abdeLKabir-56/user-management": {
+      "repositoryPath": "user-management\\user-management",
+      "lastRunOn": "12/01/2024 18:05:35 +01:00"
+    }
+  },
+  "lastRunOn": "12/01/2024 18:05:35 +01:00"
+}
